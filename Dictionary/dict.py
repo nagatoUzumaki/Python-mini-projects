@@ -2,7 +2,7 @@ import json
 from difflib import get_close_matches
 
 #loading data
-data = json.load(open("data.json"))
+data = json.load(open("data/data.json"))
 
 #funtion to get meaning of word
 def meaning(word):
