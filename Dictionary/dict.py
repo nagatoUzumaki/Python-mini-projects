@@ -28,6 +28,6 @@ def dict(word):
         if choice.lower() == 'y':
             return meaning(et_close_matches(word, data.keys())[0])
         else:
-            return "Sorry we couldn't understand your entry"
+            return "Sorry we couldn't understand this entry"
     else:
         return "word doesn't exist"
